@@ -1,0 +1,32 @@
+
+body{
+height:100%;
+text-align:center;
+background:linear-gradient(rgba(0,0,0,0.4),#1a0a0a),url(img1.png);
+background-size:cover;
+background-position:center;
+height:100vh;
+margin-top:0px;
+}
+h3{
+	font-weight:bold;
+	font-size:44px;
+	color:ORANGE;	
+}
+p{
+		font-weight:bold;
+	font-size:16px;
+	color:white;
+	text-align:center;
+}
+.bt{
+display:inline-block;
+background-color:#ff6600;
+color:white;
+padding:10px 20px;
+border-radius:5px;
+margin-left:70px;
+text-decoration:none;
+font-weight:bold;
+transition:background-color 0.3s;
+}

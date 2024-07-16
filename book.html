@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	 <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <title>Tour Booking</title>
+   <style>
+   body {
+    font-family: Arial, sans-serif;
+	background:linear-gradient(rgba(0,0,0,0.5),#140e01),url(img11.png);
+
+	background-size:cover;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+	font-size:20px;
+	color:white;
+	
+}
+
+input[type="text"],
+input[type="email"],
+select,
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+input[type="submit"] {
+background-color: #007bff;
+color: #fff;
+padding: 10px 20px;
+border: none;
+margin-left:150px;
+border-radius: 4px;
+cursor: pointer;
+}
+h1{
+color:Orange;
+}
+a{
+margin-left:670px;
+}
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.btn{
+display:inline-block;
+background-color:#ff6600;
+color:white;
+padding:10px 20px;
+border-radius:5px;
+margin-left:150px;
+text-decoration:none;
+font-weight:bold;
+transition:background-color 0.3s;
+}
+.bt{
+display:inline-block;
+background-color:#ff6600;
+color:white;
+padding:10px 20px;
+border-radius:5px;
+margin-left:610px;
+text-decoration:none;
+font-weight:bold;
+transition:background-color 0.3s;
+}
+   </style>
+</head>
+<body>
+<center>
+    <h1>Book Your Tour</h1>
+	</center>
+    <form action="" method="">
+        <label for="name">Name:</label>
+        <input type="text" name="name" required/><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" name="email" required/><br>
+        
+        <label for="tour">Select Tour:</label>
+        <select name="tour" id="tourSelect" required>
+		    <option value=""></option>
+            <option value="coimbatore">Coimbatore</option>
+            <option value="thanjavor">Thanjavor</option>
+			 <option value="tirunelveli">Tirunelveli</option>
+               <option value="kodaikanal">Kodaikanal</option>
+			    <option value="kanyakumari">Kanyakumari</option>
+				  <option value="chennai">Chennai</option>
+				    <option value="tenkasi">Tenkasi</option>
+			  <option value="madurai">Madurai</option>
+			  </select>
+	   <label for="amount">Amount:</label>
+        <input type="text" name="amount" id="amountInput"  readonly><br>
+            <!-- Add more tour options here -->
+        </select><br>
+		
+
+        <label for="date">Date:</label>
+        <input type="date" name="date" required><br>
+		<label for="contactno">Contact no</label>
+		<input type="text" name="cno" required><br>
+		<br>
+		<a href="h2.html" class="btn">BOOK NOW</a><br/><br/><br/>
+		
+		</form>
+		<br>
+		<a href="index.html" style="color:white;" class="bt">Back to home</a>
+		 <script src="script.js"></script>
+</body>
+</html>
